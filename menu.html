@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<html>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
+<style type="text/css">
+        [class="col-4 col-form-label"]{
+            font-family: 'steadyregular';
+            font-size: 30px;
+        }
+        body{
+            background: rgb(235,39,39);
+            background: linear-gradient(90deg, rgba(235,39,39,1) 0%, rgba(253,126,29,1) 50%, rgba(252,176,69,1) 100%);
+            margin-bottom: 200px; /* Margin bottom by footer height */
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 200px; /* Set the fixed height of the footer here */
+            line-height: 60px; /* Vertically center the text there */
+            background-color: #f5f5f5;
+            margin-top: 90px;
+        }
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+        .container {
+            width: auto;
+            max-width: 680px;
+            padding: 0 15px;
+        }
+    </style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand mx-auto" style="font-family: 'steadyregular'; font-size: 40px; color: tomato;" href="#">Rappi - Sistemas de información - 2020-2</a>
+    <div class="container mx-auto justify-content-end">
+        <a>Usuario: Cliente</a>
+    </div>
+</nav>
+
+<body>
+<div class="card mx-auto" style="background-color: whitesmoke; width: 75%; margin-top: 30px;">
+    
+    <form style="padding: 20px;">
+    <h2 style="text-align:center; font-size: 40px; padding: 10px; font-family: 'steadyregular'">Menú clientes - Rappi</h2>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Seleccionar</th>
+            <th scope="col">Foto</th>
+            <th scope="col">Platillo</th>
+            <th scope="col">Restaurante</th>
+            <th scope="col">Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><img src="Pepperoni 3 quesos.jpeg" width="250" height="150"></td>
+            <td>Pizza Pepperoni 3 Quesos</td>
+            <td>Papa Jhon's</td>
+            <td>22.000</td>
+          </tr>
+          <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><img src="Hawaiana.jpeg" width="250" height="150"></td>
+            <td>Pizza Hawaiana</td>
+            <td>Papa Jhon's</td>
+            <td>20.000</td>
+          </tr>
+          <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><img src="Corralita.jpeg" width="250" height="150"></td>
+            <td>Corralita</td>
+            <td>El Corral</td>
+            <td>12.000</td>
+          </tr>
+          <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><img src="Combo Corralisima.jpeg" width="250" height="150"></td>
+            <td>Combo Corralísima</td>
+            <td>El Corral</td>
+            <td>28.000</td>
+          </tr>
+          <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><img src="Granizado y torta.jpeg" width="250" height="150"></td>
+            <td>Combo Granizado y Torta</td>
+            <td>Juan Valdéz Café</td>
+            <td>12.450</td>
+          </tr>
+          <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><img src="Combo granizado x4.jpeg" width="250" height="150"></td>
+            <td>Combo Granizados y Tortas x4</td>
+            <td>Juan Valdéz Café</td>
+            <td>48.000</td>
+          </tr>
+        </tbody>
+    </table>
+    <div class="form-group row">
+        <label for="textarea" class="col-4 col-form-label">Indicaciones adicionales</label> 
+        <div class="col-8">
+          <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
+        </div>
+    </div>
+
+    </form>
+    <div class="container">
+        <button name="submit" type="submit" class="btn btn-primary" style="font-size: 40px; font-family: 'steadyregular'; background-color: tomato; margin-bottom: 15px;">Agregar al carrito</button>
+    </div>
+</div>
+
+<br>
+<br>
+
+<footer class="page-footer font-small blue pt-4">
+    <div class="col-md-6 mb-md-0 mb-3 mx-auto" >
+        <h5 class="text-uppercase font-weight-bold">Desarrollado por</h5>
+        <p style="font-size: 20px;">Julián Pachón Castrillón, Laura Quintero Cuartas, Salomé Rivera Arbeláez</p>
+      </div>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright
+    </div>
+</footer>
+
+</body>
+</html>
