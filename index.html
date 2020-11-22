@@ -1,24 +1,82 @@
 <!doctype html>
 <html lang="es">
 <html>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+    
+    <style type="text/css">
+            [class="col-4 col-form-label"]{
+                font-family: 'steadyregular';
+                font-size: 30px;
+            }
+            body{
+                background: rgb(235,39,39);
+                background: linear-gradient(90deg, rgba(235,39,39,1) 0%, rgba(253,126,29,1) 50%, rgba(252,176,69,1) 100%);
+                margin-bottom: 200px; /* Margin bottom by footer height */
+            }
+            footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 200px; /* Set the fixed height of the footer here */
+                line-height: 60px; /* Vertically center the text there */
+                background-color: #f5f5f5;
+                margin-top: 90px;
+            }
+            html {
+                position: relative;
+                min-height: 100%;
+            }
+            .container {
+                width: auto;
+                max-width: 680px;
+                padding: 0 15px;
+            }
+        </style>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mx-auto" style="font-family: 'steadyregular'; font-size: 40px; color: tomato;" href="#">Rappi - Sistemas de información - 2020-2</a>
+    </nav>
+
 <body>
-
-    <p><a href="ingreso-sistema.html">Ingreso sistema </a></p>
-    <p><a href="login.html">Login usuario registrado</a></p>
-    <p><a href="registro.html">Registrar usuario</a></p>
-    <p><a href="menu.html">Menu</a></p>
-    <p><a href="registrar-pedido.html">Registrar pedido</a></p>
-    <p><a href="envio-pedido-al-restaurante.html">Enviar pedido al restaurante</a></p>
-    <p><a href="metodo-pago.html">Método de pago</a></p>
-    <p><a href="pago-electronico.html">Pago Electrónico</a></p>
-    <p><a href="pago-efectivo.html">Pago en efectivo</a></p>
-    <p><a href="asignar-rappitendero.html">Asignar Rappitendero</a></p>
-    <p><a href="confirmar-recepcion-restaurante.html">Confirmar recepción del pedido en el restaurante</a></p>
-    <p><a href="confirmacion-recepcion-cliente.html">Confirmar recepción por parte del cliente</a></p>
-    <p><a href="determinar-calificar.html">Determinar si calificar o no el servicio</a></p>
-    <p><a href="calificar-restaurante.html">Calificar restaurante</a></p>
-    <p><a href="calificar-rappitendero.html">Calificar Rappitendero</a></p>
-
+    <div class="card mx-auto" style="background-color: whitesmoke; width: 75%; margin-top: 30px;">
+        <br>
+        <h2 class="mx-auto">Índice interfaces</h2>
+        <br>
+        <h5 class="mx-auto">Desde acá podrá acceder a todas las diferentes interfaces diseñadas para el sistema de información de Rappi</h5>
+        <br>
+        <div class="container mx-auto list-group">
+            <p><a class="list-group-item list-group-item-action" href="ingreso-sistema.html">Ingreso sistema </a></p>
+            <p><a class="list-group-item list-group-item-action" href="login.html">Login usuario registrado</a></p>
+            <p><a class="list-group-item list-group-item-action" href="registro.html">Registrar usuario</a></p>
+            <p><a class="list-group-item list-group-item-action" href="menu.html">Menu</a></p>
+            <p><a class="list-group-item list-group-item-action" href="registrar-pedido.html">Registrar pedido</a></p>
+            <p><a class="list-group-item list-group-item-action" href="envio-pedido-al-restaurante.html">Enviar pedido al restaurante</a></p>
+            <p><a class="list-group-item list-group-item-action" href="metodo-pago.html">Método de pago</a></p>
+            <p><a class="list-group-item list-group-item-action" href="pago-electronico.html">Pago Electrónico</a></p>
+            <p><a class="list-group-item list-group-item-action" href="pago-efectivo.html">Pago en efectivo</a></p>
+            <p><a class="list-group-item list-group-item-action" href="asignar-rappitendero.html">Asignar Rappitendero</a></p>
+            <p><a class="list-group-item list-group-item-action" href="confirmar-recepcion-restaurante.html">Confirmar recepción del pedido en el restaurante</a></p>
+            <p><a class="list-group-item list-group-item-action" href="confirmacion-recepcion-cliente.html">Confirmar recepción por parte del cliente</a></p>
+            <p><a class="list-group-item list-group-item-action" href="determinar-calificar.html">Determinar si calificar o no el servicio</a></p>
+            <p><a class="list-group-item list-group-item-action" href="calificar-restaurante.html">Calificar restaurante</a></p>
+            <p><a class="list-group-item list-group-item-action" href="calificar-rappitendero.html">Calificar Rappitendero</a></p>
+        </div>
+        <br>
+    </div>
+<br>
+<br>
+<footer class="page-footer font-small blue pt-4">
+    <div class="col-md-6 mb-md-0 mb-3 mx-auto" >
+        <h5 class="text-uppercase font-weight-bold">Desarrollado por</h5>
+        <p style="font-size: 20px;">Julián Pachón Castrillón, Laura Quintero Cuartas, Salomé Rivera Arbeláez</p>
+        </div>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright
+    </div>
+</footer>
 </body>
 
 </html>
